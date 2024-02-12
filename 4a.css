@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: gainsboro;
+  padding: 10px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+#hero {
+  background-color: palevioletred;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  gap: 20px; 
+}
+#about,
+#skills,
+#contact {
+  padding: 50px 0;
+   background-color:palevioletred;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-content {
+  margin-left: 40px;
+}
+.section {
+  padding: 50px 0;
+}
+.box {
+  background-color: gainsboro;
+  padding: 40px;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box h2 {
+  color: palevioletred;
+  font-size: 24px;
+  margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
+}
+.box:hover h2 {
+  color: palevioletred;
+}
+.box p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
+}
+.box:hover p {
+  color: palevioletred;
+}
+.box ul {
+  margin: 0;
+  padding: 0;
+}
+.box ul li {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.box:hover ul li {
+  color: palevioletred;
+}
+footer {
+  background-color: gainsboro;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+}
